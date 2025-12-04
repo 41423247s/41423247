@@ -1,0 +1,8 @@
+from robot_lib import World, AnimatedRobot
+w = World(10, 10)
+r = AnimatedRobot(w, 1, 1)
+def two_line():
+    r.move(9)
+    r.turn_left()
+for i in range(12):
+    two_line()
